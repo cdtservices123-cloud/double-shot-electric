@@ -9,7 +9,7 @@
       "src": "server.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["index.html", "admin.html", "db.js"]
+        "includeFiles": ["index.html", "admin.html", "db.js", "manifest.webmanifest", "sw.js", "icons/**"]
       }
     }
   ],
