@@ -1,6 +1,4 @@
-node_modules/
-.env
-dse-data.json
-*.db
+node_modules
+dist
 .DS_Store
-Thumbs.db
+*.local

@@ -1,20 +1,23 @@
 {
   "name": "double-shot-electric",
+  "private": true,
   "version": "1.0.0",
-  "description": "Double Shot Electric — delivery-first functional coffee, Las Vegas",
-  "main": "server.js",
-  "engines": {
-    "node": ">=18"
-  },
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@vercel/kv": "^2.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "nodemailer": "^6.9.13"
+    "@fontsource/anton": "^5.2.5",
+    "@fontsource/bebas-neue": "^5.2.5",
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/permanent-marker": "^5.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
   }
 }
